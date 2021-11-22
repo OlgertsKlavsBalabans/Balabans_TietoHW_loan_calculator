@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { updateLoanDataProperty } from '../../../state/actions/loanActions/LoanActions';
+import { updateLoanDataProperty } from '../../../../state/actions/loanActions/LoanActions';
 import './StringInput.css';
 
 export default function StringInput(props) {

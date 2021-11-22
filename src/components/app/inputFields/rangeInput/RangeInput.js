@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { useDispatch } from "react-redux";
-import { updateLoanDataProperty } from "../../../state/actions/loanActions/LoanActions";
+import { updateLoanDataProperty } from "../../../../state/actions/loanActions/LoanActions";
 import './RangeInput.css';
 
 
