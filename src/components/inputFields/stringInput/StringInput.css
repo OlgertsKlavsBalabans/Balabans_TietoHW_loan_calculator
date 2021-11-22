@@ -1,0 +1,22 @@
+.StringInput{
+
+}
+.StrInput{
+    margin-left: 5px;
+    min-width: 200px;
+    width: 80%;
+    font-size: 16px;
+    font-size: Max(16px, 1em);
+    font-family: inherit;
+    padding: 0.25em 0.5em;
+    background-color: #fff;
+    border: 2px solid #00336d62;
+    border-radius: 4px;
+    transition: 180ms box-shadow ease-in-out;
+}
+
+.StrInput:focus {
+    border-color: #00336d;
+    box-shadow: 0 0 0 3px hsla(245,100%, calc(42% + 40%), 0.8);
+    outline: 3px solid transparent;
+}

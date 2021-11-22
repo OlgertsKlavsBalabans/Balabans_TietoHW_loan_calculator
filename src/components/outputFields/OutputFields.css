@@ -1,0 +1,12 @@
+.OutputFields{
+    padding: 10px;
+    width: 30%;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.OutputField {
+    width: 100%;
+    text-align: center;
+    margin:auto;
+}

@@ -1,8 +1,24 @@
 .App {
   text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
-
-.App-logo {
+.MainContainer {
+  margin: auto;
+  max-width:1000px;
+  display: flex;
+}
+.InputFields {
+  padding: 10px;
+  margin:auto;
+  width: 70%;
+}
+/* .OutputFields{
+  padding: 10px;
+  margin:auto;
+  width: 30%;
+} */
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +51,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
